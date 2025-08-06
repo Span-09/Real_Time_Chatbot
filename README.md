@@ -19,7 +19,7 @@ Problem Statement
 
 What Was Implemented Today:
 
-  The core HTML structure was created in chat.html using semantic tags (<header>, <main>, <footer>) to represent the different sections of the UI.
+  The core HTML structure was created in chat.html using semantic tags to represent the different sections of the UI.
   The complete styling was developed in style.css, using Flexbox to manage the overall page layout and alignment of components.
   Message bubbles were styled to appear on the right for "sent" messages and on the left for "received" messages.
   The chat area was made vertically scrollable for message history.
