@@ -27,7 +27,8 @@ body {
     display: flex;
     align-items: center;
     padding: 10px 16px;
-    background-color: #075E54;
+    background-image: linear-gradient(to right, #ff8c00, #ff6347);
+    color: white;
     border-bottom: 1px solid #e0e0e0;
     position: sticky;
     top: 0;
@@ -55,7 +56,7 @@ body {
     flex-grow: 1;
     padding: 16px;
     overflow-y: auto;
-    background-color: #ffffff; /* Updated attractive background */
+    background-image: #fff5e6;
 }
 
 /* Message Bubbles */
@@ -87,8 +88,8 @@ body {
     border-top-left-radius: 4px;
 }
 .message-bubble.sent {
-    background-color: #dcf8c6; /* Updated for better contrast */
-    color: black; /* Darker text for readability */
+    background-color: #ff7f50;
+    color: white;
     float: right;
     border-top-right-radius: 4px;
 }
@@ -170,7 +171,7 @@ body {
 }
 
 .send-button {
-    background-color: #075E54;
+    background-image: linear-gradient(to right, #ff8c00, #ff6347);
     color: white;
     border: none;
     border-radius: 20px;
@@ -182,7 +183,8 @@ body {
 }
 
 .send-button:hover {
-    background-color: #0056b3;
+    filter: brightness(1.15);
+    transform: scale(1.1);
 }
 
 /* Responsive Design for Mobile */
