@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Room</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <button class="back-button">&larr;</button>
+            <h1 class="room-title">Welcome to QRAllimi</h1>
+        </header>
+
+        <main class="chat-area">
+            <div class="date-separator">
+                <span>Today</span>
+            </div>
+
+            <div class="message-bubble received">
+                <div class="message-text">Hey everyone, what's the status on the new mockups?</div>
+                <div class="message-timestamp">10:30 AM</div>
+            </div>
+
+            <div class="message-bubble sent">
+                <div class="message-text">I've just pushed the latest version to Figma. Let me know your thoughts.</div>
+                <div class="message-timestamp">10:32 AM</div>
+            </div>
+
+            <div class="message-bubble received">
+                <div class="message-text">Looks great! I'll review it now.</div>
+                <div class="message-timestamp">10:33 AM</div>
+            </div>
+            
+            <div class="message-bubble received typing-indicator">
+                <div class="message-text">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </main>
+
+        <footer class="chat-input-area">
+            <input type="text" class="message-input" placeholder="Type a message...">
+            <button class="send-button">Send</button>
+        </footer>
+    </div>
+</body>
+</html>
