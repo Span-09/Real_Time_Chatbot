@@ -1,4 +1,4 @@
-Real-Time Chat Web App
+Real-Time Chat Web App: 
 This project is a production-ready, real-time web chat application built using only Vanilla JavaScript, HTML, and CSS. The backend services, including the database and authentication, are handled by Firebase.
 
 Daily Progress
