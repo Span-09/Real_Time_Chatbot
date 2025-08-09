@@ -71,9 +71,25 @@ body {
     clear: both;
 }
 
-.message-text {
-    font-size: 15px;
-    line-height: 1.4;
+/* Read Receipt Styles */
+.message-timestamp {
+    display: flex; /* Use flexbox to align timestamp and receipts */
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 11px;
+    color: #888;
+    margin-top: 8px;
+}
+
+.message-bubble.sent .message-timestamp {
+    color: whitesmoke;
+    opacity: 0.8;
+}
+
+.read-receipts {
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .message-timestamp {
@@ -97,17 +113,28 @@ body {
     float: right;
     border-top-right-radius: 4px;
 }
+.offline-indicator {
+    padding: 10px;
+    background-color: #ffc107; /* A warning yellow color */
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
 
 /* Adjust timestamp color for the sent bubble */
-.message-bubble.sent .message-timestamp {
+/* .message-bubble.sent .message-timestamp {
     color: whitesmoke;
     opacity: 0.8;
-}
+} */
 
 /* Date Separator */
 .date-separator {
     text-align: center;
     margin: 20px 0;
+    clear: both;
+    float: none;
+    width: 100%;
 }
 
 .date-separator span {
